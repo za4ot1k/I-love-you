@@ -440,3 +440,94 @@ img {
     .valentine-text {
         text-align: center;
     }
+
+    /* ── iPhone 11 Pro ── */
+@media (max-width: 390px) {
+
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .slide {
+    padding: 16px 14px;
+    gap: 14px;
+  }
+
+  /* Слайд 1 */
+  .envelope-card {
+    width: 85vw;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  /* Слайд 2 */
+  .cat-card {
+    width: 75vw;
+    aspect-ratio: 1;
+  }
+
+  .question-text {
+    font-size: 1rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+
+  /* Слайд 3 */
+  .plead-text,
+  .plead-sub {
+    font-size: 1.1rem;
+  }
+
+  .plead-emoji {
+    font-size: 3rem;
+  }
+
+  /* Слайд 4 */
+  .valentine-title {
+    font-size: 1.5rem;
+  }
+
+  .kitty-wrap {
+    width: 260px;
+    height: 260px;
+    margin: 16px 0;
+  }
+
+  .kitty-wrap img {
+    width: 180px;
+  }
+
+  .kaomoji,
+  .press-hint {
+    font-size: 1rem;
+  }
+
+  /* Слайд 5 */
+  .letter-envelope {
+    width: 92vw;
+  }
+
+  .letter-top h2 {
+    font-size: 1.5rem;
+  }
+
+  .letter-body {
+    padding: 30px 20px 20px;
+  }
+
+  .letter-body p {
+    font-size: 0.88rem;
+    line-height: 1.8;
+  }
+
+  .letter-signature p {
+    font-size: 1rem;
+  }
+}
