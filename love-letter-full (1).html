@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Валентинка Тані</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="hearts-layer" id="heartsLayer"></div>
+
+<!-- ══ СЛАЙД 1: КОНВЕРТ ══ -->
+<div class="slide active" id="slide1">
+  <div class="envelope-card">
+    <div class="card-heart-icon"><img class="heart-img" src="./img/Red Heart.png" alt=""></div>
+    <div class="card-label">love</div>
+  </div>
+  <p class="subtitle">У мене для тебе лист...</p>
+  <button class="btn-primary" onclick="goTo(2)"><p>Далі</p> <img class="arrow-img" src="./img/icons8-right-64.png" alt=""></button>
+</div>
+
+<!-- ══ СЛАЙД 2: КІТ-МЕМ ══ -->
+<div class="slide" id="slide2">
+  <p class="question-text">Хочеш відкрити? *(- ᵕ -)*</p>
+
+  <div class="cat-card">
+    <img src="./img/Cat Kitty GIF.gif" alt="">
+  </div>
+
+  <div class="btn-row">
+    <button class="btn-primary"   onclick="goTo(4)">Відкрити</button>
+    <button class="btn-secondary" onclick="goTo(3)">Не-а</button>
+  </div>
+</div>
+
+<!-- ══ СЛАЙД 3: БУД ЛАСКА ══ -->
+<div class="slide" id="slide3">
+  <div class="plead-text">
+    Ну будь ласка...
+    <div class="plead-sub">Давай ще раз? &gt;◁&lt;</div>
+  </div>
+  <button class="btn-primary" onclick="goTo(2)">Ще раз..?</button>
+</div>
+
+<!-- ══ СЛАЙД 4: HELLO KITTY ══ -->
+<div class="slide" id="slide4">
+  <<div class="valentine-heart-big">
+  <img src="./img/Red Heart.png" alt="" style="width: 60px;">
+</div>
+  <div class="valentine-title">З Днем Святого<br>Валентина!</div>
+
+  <div class="kitty-wrap">
+      <img src="./img/Hello Kitty Pink GIF.gif" alt="">
+  </div>
+  <div class="press-hint">Натисни на кнопку!! (⊃♡ω♡)⊃ ♥</div>
+  <button class="btn-primary" onclick="goTo(5)">Далі ∧w∧ </button>
+</div>
+
+<!-- ══ СЛАЙД 5: ЛИСТ ══ -->
+<div class="slide" id="slide5">
+  <h2 class="valentine-text">♥З Днем Святого Валентина кохана Танюха!♥♥♥</h2>
+  <div class="letter-envelope">
+    <div class="letter-body">
+      
+      <div class="letter-signature"><p>Я дуже щасливий за те що ти в мене є ти робиш мій день щасливішим,дякую за те що ти в мене є,вітаю з днем Святого Валентина💗</p></div>
+    </div>
+  </div>
+  <button class="btn-restart" onclick="goTo(1)">Спочатку</button>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
